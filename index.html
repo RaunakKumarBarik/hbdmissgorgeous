@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Happy Birthday Srishty!</title>
+		<link href="decoration.css" rel="stylesheet" type="text/css"/>
+		<style>
+			#quotes
+			{
+    				border-collapse: collapse;
+    				border-spacing: 0;
+    				width: 100%;
+				height: 100%;
+    				border: 1px solid #ddd;
+				margin-left-right:auto;
+			}
+
+			th, td 
+			{
+    				text-align: center;
+    				padding: 8px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="subdiv01">
+				<img src="image/image3.png" width="100%" height="600px"/>
+			</div>
+			<div id="subdiv02">
+				<img src="image/gif10.gif" width="100%" height="800px"/>
+			</div>
+			<div id="subdiv07">
+				<video controls height="800px" width="100%">
+					<source src="video/intro.mp4" type="video/mp4" id="hbd"/>
+				</video>
+			</div>
+			<div id="subdiv06">
+				<img src="image/gif5.gif" width="100%" height="800px"/>
+			</div>
+			<div id="subdiv03">
+				<div style="overflow-x:auto;">
+					<table id="quotes" background="image/gif3.gif">
+						<tr>
+							<th><img src="image/image5.jpg" id="myImg1" width="400px" height="780px"/></th>
+							<th><img src="image/image6.jpg" id="myImg2" width="700px" height="780px"/></th>
+							<th><img src="image/image7.jpg" id="myImg3" width="400px" height="780px"/></th>
+							<th><img src="image/image8.jpg" id="myImg4" width="700px" height="780px"/></th>
+							<th><img src="image/image9.jpg" id="myImg5" width="400px" height="780px"/></th>
+							<th><img src="image/gif15.gif" id="myImg6" width="700px" height="780px"/></th>
+							<th><img src="image/image10.jpg" id="myImg7" width="400px" height="780px"/></th>
+							<th><img src="image/gif14.gif" id="myImg8" width="700px" height="780px"/></th>
+							<th><img src="image/image11.jpg" id="myImg9" width="400px" height="780px"/></th>
+							<th><img src="image/gif16.gif" id="myImg10" width="700px" height="780px"/></th>
+							<th><img src="image/gif8.gif" id="myImg11" width="700px" height="780px"/></th>
+							<th><img src="image/gif7.gif" id="myImg12" width="700px" height="780px"/></th>
+							<th><img src="image/gif12.gif" id="myImg13" width="700px" height="780px"/></th>
+							<th><img src="image/gif17.gif" id="myImg14" width="700px" height="780px"/></th>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="subdiv08">
+				<img src="image/intro.png" width="100%" height="820px"/>
+			</div>
+			<div id="subdiv04">
+				<img src="image/image4.png" width="100%" height="760px" onclick="window.open('videos.html')"/>
+			</div>
+			<div id="subdiv05">
+				Made with <img src="image/heart.png" height="15" width="15"/> by your loved ones.
+			</div>
+		</div>
+		<script>
+			window.onscroll = function() {myFunction()};
+			function myFunction()
+			{
+  				var winScroll = document.body.scrollRight || document.documentElement.scrollRight;
+  				var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  				var scrolled = (winScroll / height) * 100;
+  				document.getElementById("myBar").style.width = scrolled + "%";
+			}
+		</script>
+	</body>
+</html>
